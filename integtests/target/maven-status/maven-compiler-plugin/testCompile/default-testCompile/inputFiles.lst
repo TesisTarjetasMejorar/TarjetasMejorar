@@ -1,0 +1,8 @@
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/specglue/CatalogOfFixturesGlue.java
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/specs/RunSpecs.java
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/tests/SimpleAppIntegTest.java
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/specglue/BootstrappingGlue.java
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/bootstrap/SimpleAppSystemInitializer.java
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/specglue/modules/simple/SimpleObjectGlue.java
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/tests/modules/simple/SimpleObjectIntegTest.java
+/home/niko/Escritorio/tesis/integtests/src/test/java/domainapp/integtests/tests/modules/simple/SimpleObjectsIntegTest.java

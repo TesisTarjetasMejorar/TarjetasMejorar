@@ -1,0 +1,4 @@
+domainapp/fixture/scenarios/RecreateSimpleObjects.class
+domainapp/fixture/modules/simple/SimpleObjectsTearDown.class
+domainapp/fixture/DomainAppFixturesService.class
+domainapp/fixture/modules/simple/SimpleObjectCreate.class

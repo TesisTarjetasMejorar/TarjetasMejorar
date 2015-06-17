@@ -1,0 +1,13 @@
+domainapp/dom/tarjeta/QTarjetaSQ.class
+domainapp/dom/tarjeta/TarjetasSQ.class
+domainapp/dom/tarjeta/TarjetaSQ.class
+domainapp/dom/app/homepage/HomePageViewModel.class
+domainapp/dom/app/homepage/HomePageService.class
+domainapp/dom/tarjeta/TarjetasHSES.class
+domainapp/dom/modules/simple/SimpleObjects.class
+domainapp/dom/tarjeta/QTarjeta.class
+domainapp/dom/modules/simple/SimpleObject$UpdateNameDomainEvent.class
+domainapp/dom/modules/simple/SimpleObject.class
+domainapp/dom/tarjeta/TarjetaHSES.class
+domainapp/dom/tarjeta/Tarjeta.class
+domainapp/dom/modules/simple/QSimpleObject.class
