@@ -1,4 +1,4 @@
-package domainapp.dom.tarjeta;
+package dominio.dom.tarjeta;
 
 
 //import javax.inject.Inject;

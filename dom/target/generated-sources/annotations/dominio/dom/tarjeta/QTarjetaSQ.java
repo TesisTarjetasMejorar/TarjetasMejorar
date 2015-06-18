@@ -1,9 +1,9 @@
-package domainapp.dom.tarjeta;
+package dominio.dom.tarjeta;
 
 import org.datanucleus.query.typesafe.*;
 import org.datanucleus.api.jdo.query.*;
 
-public class QTarjetaSQ extends domainapp.dom.tarjeta.QTarjeta
+public class QTarjetaSQ extends dominio.dom.tarjeta.QTarjeta
 {
     public static final QTarjetaSQ jdoCandidate = candidate("this");
 

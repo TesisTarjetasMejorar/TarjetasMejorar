@@ -1,4 +1,4 @@
-package domainapp.dom.tarjeta;
+package dominio.dom.tarjeta;
 
 import javax.jdo.annotations.Column;
 import javax.jdo.annotations.Inheritance;

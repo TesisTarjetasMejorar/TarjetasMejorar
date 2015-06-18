@@ -1,4 +1,4 @@
-package domainapp.dom.tarjeta;
+package dominio.dom.tarjeta;
 
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.Title;
