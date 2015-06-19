@@ -48,29 +48,18 @@ public class SimpleObjects {
     //endregion
 
     //region > findByName (action)
-    @Action(
-            semantics = SemanticsOf.SAFE
-    )
-    @ActionLayout(
-            bookmarking = BookmarkPolicy.AS_ROOT
-    )
+    @Action(semantics = SemanticsOf.SAFE)
+    @ActionLayout(bookmarking = BookmarkPolicy.AS_ROOT)
     @MemberOrder(sequence = "2")
-    public List<SimpleObject> findByName(
-            @ParameterLayout(named="Name")
-            final String name
-    ) {
-        return container.allMatches(
-                new QueryDefault<>(
-                        SimpleObject.class,
-                        "findByName",
-                        "name", name));
+    public List<SimpleObject> findByName(@ParameterLayout(named="Name")final String name) {
+        return container.allMatches(new QueryDefault<>(SimpleObject.class,"findByName","name", name));
     }
     //endregion
 
     //region > create (action)
     @MemberOrder(sequence = "3")
-    public SimpleObject create(
-            final @ParameterLayout(named="Name") String name) {
+    public SimpleObject create(final @ParameterLayout(named="Name") String name) 
+    {
         final SimpleObject obj = container.newTransientInstance(SimpleObject.class);
         obj.setName(name);
         container.persistIfNotAlready(obj);

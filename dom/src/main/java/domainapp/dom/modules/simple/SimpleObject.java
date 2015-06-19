@@ -43,23 +43,11 @@ import org.apache.isis.applib.util.ObjectContracts;
         strategy=VersionStrategy.VERSION_NUMBER, 
         column="version")
 @javax.jdo.annotations.Queries({
-        @javax.jdo.annotations.Query(
-                name = "find", language = "JDOQL",
-                value = "SELECT "
-                        + "FROM domainapp.dom.modules.simple.SimpleObject "),
-        @javax.jdo.annotations.Query(
-                name = "findByName", language = "JDOQL",
-                value = "SELECT "
-                        + "FROM domainapp.dom.modules.simple.SimpleObject "
-                        + "WHERE name.indexOf(:name) >= 0 ")
-})
+        @javax.jdo.annotations.Query(name = "find", language = "JDOQL", value = "SELECT "+ "FROM domainapp.dom.modules.simple.SimpleObject "),
+        @javax.jdo.annotations.Query(name = "findByName", language = "JDOQL",value = "SELECT "+ "FROM dominio.dom.TarjetaSQ "+ "WHERE name.indexOf(:name) >= 0 ")})
 @javax.jdo.annotations.Unique(name="SimpleObject_name_UNQ", members = {"name"})
-@DomainObject(
-        objectType = "SIMPLE"
-)
-@DomainObjectLayout(
-        bookmarking = BookmarkPolicy.AS_ROOT
-)
+@DomainObject(objectType = "SIMPLE")
+@DomainObjectLayout(bookmarking = BookmarkPolicy.AS_ROOT)
 public class SimpleObject implements Comparable<SimpleObject> {
 
 
@@ -75,9 +63,7 @@ public class SimpleObject implements Comparable<SimpleObject> {
 
     @javax.jdo.annotations.Column(allowsNull="false", length = 40)
     @Title(sequence="1")
-    @Property(
-            editing = Editing.DISABLED
-    )
+    @Property(editing = Editing.DISABLED)
     public String getName() {
         return name;
     }
