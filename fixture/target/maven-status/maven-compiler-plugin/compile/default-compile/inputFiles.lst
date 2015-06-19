@@ -1,4 +1,4 @@
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/fixture/src/main/java/domainapp/fixture/DomainAppFixturesService.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/fixture/src/main/java/domainapp/fixture/scenarios/RecreateSimpleObjects.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/fixture/src/main/java/domainapp/fixture/modules/simple/SimpleObjectsTearDown.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/fixture/src/main/java/domainapp/fixture/modules/simple/SimpleObjectCreate.java
+/home/niko/Escritorio/tesis2/fixture/src/main/java/domainapp/fixture/modules/simple/SimpleObjectCreate.java
+/home/niko/Escritorio/tesis2/fixture/src/main/java/domainapp/fixture/modules/simple/SimpleObjectsTearDown.java
+/home/niko/Escritorio/tesis2/fixture/src/main/java/domainapp/fixture/DomainAppFixturesService.java
+/home/niko/Escritorio/tesis2/fixture/src/main/java/domainapp/fixture/scenarios/RecreateSimpleObjects.java

@@ -1,8 +1,8 @@
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/specglue/CatalogOfFixturesGlue.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/specglue/modules/simple/SimpleObjectGlue.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/bootstrap/SimpleAppSystemInitializer.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/tests/modules/simple/SimpleObjectsIntegTest.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/tests/SimpleAppIntegTest.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/specs/RunSpecs.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/tests/modules/simple/SimpleObjectIntegTest.java
-/home/ezequiel/TrabajoFinal/TarjetasMejorar/integtests/src/test/java/domainapp/integtests/specglue/BootstrappingGlue.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/specglue/CatalogOfFixturesGlue.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/tests/modules/simple/SimpleObjectsIntegTest.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/bootstrap/SimpleAppSystemInitializer.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/tests/modules/simple/SimpleObjectIntegTest.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/specs/RunSpecs.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/tests/SimpleAppIntegTest.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/specglue/modules/simple/SimpleObjectGlue.java
+/home/niko/Escritorio/tesis2/integtests/src/test/java/domainapp/integtests/specglue/BootstrappingGlue.java

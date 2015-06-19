@@ -27,17 +27,17 @@ public class QTarjetaSQ extends dominio.dom.tarjeta.QTarjeta
         return new QTarjetaSQ(TarjetaSQ.class, name, ExpressionType.VARIABLE);
     }
 
-    public final StringExpression loquesea;
+    public final StringExpression decicionTomada;
 
     public QTarjetaSQ(PersistableExpression parent, String name, int depth)
     {
         super(parent, name, depth);
-        this.loquesea = new StringExpressionImpl(this, "loquesea");
+        this.decicionTomada = new StringExpressionImpl(this, "decicionTomada");
     }
 
     public QTarjetaSQ(Class type, String name, org.datanucleus.api.jdo.query.ExpressionType exprType)
     {
         super(type, name, exprType);
-        this.loquesea = new StringExpressionImpl(this, "loquesea");
+        this.decicionTomada = new StringExpressionImpl(this, "decicionTomada");
     }
 }

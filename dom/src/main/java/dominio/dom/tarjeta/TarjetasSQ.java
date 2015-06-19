@@ -22,7 +22,7 @@ public class TarjetasSQ extends AbstractFactoryAndRepository
 						@ParameterLayout(named="Fecha Carga") final Date fechaCarga,
 						@ParameterLayout(named="Lugar de Observacion") final String lugarObs,
 						@ParameterLayout(named="Linea de Negocio") final String lineaNeg,
-						@ParameterLayout(named="lo que sea") final String loquesea) 
+						@ParameterLayout(named="Decicion Tomada") final String loquesea) 
 	{
 		final TarjetaSQ tSQ = container.newTransientInstance(TarjetaSQ.class);
 		tSQ.setNumTarjetaTesco(String.valueOf(numTar));
@@ -30,7 +30,7 @@ public class TarjetasSQ extends AbstractFactoryAndRepository
 		tSQ.setFechaCarga(fechaCarga.toString());
 		tSQ.setLugarObs(lugarObs);
 		tSQ.setLineaNegocio(lineaNeg);
-        tSQ.setLoquesea(loquesea);
+        tSQ.setDecicionTomada(loquesea);
         container.persistIfNotAlready(tSQ);
 		
 		return tSQ;

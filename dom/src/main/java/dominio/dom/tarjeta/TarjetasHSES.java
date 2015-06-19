@@ -9,7 +9,7 @@ import org.apache.isis.applib.annotation.DomainServiceLayout;
 import org.apache.isis.applib.annotation.ParameterLayout;
 
 @DomainServiceLayout(menuOrder = "40")
-@DomainService(repositoryFor = Tarjeta.class)
+@DomainService(repositoryFor = TarjetaHSES.class)
 public class TarjetasHSES extends AbstractFactoryAndRepository 
 {
 	@javax.inject.Inject 

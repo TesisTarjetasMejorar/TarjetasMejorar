@@ -4,6 +4,8 @@ package dominio.dom.tarjeta;
 //import javax.inject.Inject;
 import javax.jdo.annotations.Column;
 import javax.jdo.annotations.PersistenceCapable;
+
+import org.apache.isis.applib.annotation.DomainObject;
 //import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.annotation.MemberOrder;
 
@@ -20,25 +22,25 @@ import org.apache.isis.applib.annotation.MemberOrder;
 //                value = "SELECT " + "FROM domainapp.dom.tarjeta.TarjetaSQ "+ "WHERE name.indexOf(:name) >= 0 ")
 //})
 
-
+@DomainObject(objectType = "SQ")
 @PersistenceCapable
 public class TarjetaSQ extends Tarjeta
 {
 	
 		
 	
-	private String loquesea;
+	private String decicionTomada;
 
 	@MemberOrder (sequence = "6")
 	@Column(allowsNull = "false",length = 40)
-	public String getLoquesea() 
+	public String getDecicionTomada() 
 	{
-		return loquesea;
+		return decicionTomada;
 	}
 
-	public void setLoquesea(String loquesea) 
+	public void setDecicionTomada(String loquesea) 
 	{
-		this.loquesea = loquesea;
+		this.decicionTomada = loquesea;
 	}
 	
 	
