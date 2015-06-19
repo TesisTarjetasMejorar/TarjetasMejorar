@@ -1,9 +1,9 @@
 dominio/dom/tarjeta/QTarjeta.class
 dominio/dom/tarjeta/TarjetaHSES.class
-domainapp/dom/app/homepage/HomePageViewModel.class
+dominio/dom/tarjeta/TarjetasSQ.class
 dominio/dom/tarjeta/TarjetaSQ.class
 dominio/dom/tarjeta/Tarjeta.class
-dominio/dom/tarjeta/TarjetasSQ.class
+domainapp/dom/app/homepage/HomePageViewModel.class
 domainapp/dom/app/homepage/HomePageService.class
 dominio/dom/tarjeta/TarjetasHSES.class
 domainapp/dom/modules/simple/SimpleObjects.class

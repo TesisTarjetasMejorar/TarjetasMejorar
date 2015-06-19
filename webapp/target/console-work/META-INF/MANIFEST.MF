@@ -2,12 +2,12 @@ Manifest-Version: 1.0
 Build-Java: 1.8.0_45
 Build-Label: 1.0-SNAPSHOT
 Archiver-Version: Plexus Archiver
-Built-By: niko
+Built-By: ezequiel
 Build-Host: 
 Build-Maven: Maven 3.0.5
-Build-Time: 20150619-1015
+Build-Time: 20150619-1409
 Build-OS: Linux
-Build-User: niko
+Build-User: ezequiel
 Created-By: Apache Maven 3.0.5
 Build-Jdk: 1.8.0_45
 
