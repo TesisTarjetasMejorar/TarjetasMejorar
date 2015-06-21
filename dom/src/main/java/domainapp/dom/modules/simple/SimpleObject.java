@@ -45,7 +45,7 @@ import org.apache.isis.applib.util.ObjectContracts;
 @javax.jdo.annotations.Queries({
         @javax.jdo.annotations.Query(name = "find", language = "JDOQL", value = "SELECT "+ "FROM domainapp.dom.modules.simple.SimpleObject "),
         @javax.jdo.annotations.Query(name = "findByName", language = "JDOQL",value = "SELECT "+ "FROM dominio.dom.TarjetaSQ "+ "WHERE name.indexOf(:name) >= 0 ")})
-@javax.jdo.annotations.Unique(name="SimpleObject_name_UNQ", members = {"name"})
+@javax.jdo.annotations.Unique(name="TarjetaSQ_numTarjetaTesco_key", members = {"name"})
 @DomainObject(objectType = "SIMPLE")
 @DomainObjectLayout(bookmarking = BookmarkPolicy.AS_ROOT)
 public class SimpleObject implements Comparable<SimpleObject> {

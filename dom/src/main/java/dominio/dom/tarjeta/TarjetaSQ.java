@@ -9,18 +9,10 @@ import org.apache.isis.applib.annotation.DomainObject;
 //import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.annotation.MemberOrder;
 
-
-
-
-
-//@javax.jdo.annotations.Queries({
-//        @javax.jdo.annotations.Query(
-//                name = "find", language = "JDOQL",
-//                value = "SELECT " + "FROM domainapp.dom.tarjeta.TarjetaSQ "),
-//        @javax.jdo.annotations.Query(
-//                name = "findByName", language = "JDOQL",
-//                value = "SELECT " + "FROM domainapp.dom.tarjeta.TarjetaSQ "+ "WHERE name.indexOf(:name) >= 0 ")
-//})
+@javax.jdo.annotations.Queries({
+    @javax.jdo.annotations.Query(name = "find", language = "JDOQL", value = "SELECT "+ "FROM domainapp.dom.modules.simple.SimpleObject "),
+    @javax.jdo.annotations.Query(name = "buscarPorNum", language = "JDOQL",value = "SELECT "+ "FROM dominio.dom.TarjetaSQ "+ "WHERE numTarjetaTesco.indexOf(:name) >= 0 ")})
+@javax.jdo.annotations.Unique(name="TarjetaSQ_numTarjetaTesco_key", members = {"numTarjetaTesco"})
 
 @DomainObject(objectType = "SQ")
 @PersistenceCapable

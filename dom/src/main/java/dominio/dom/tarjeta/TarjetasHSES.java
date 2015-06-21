@@ -1,12 +1,18 @@
 package dominio.dom.tarjeta;
 
 import java.util.Date;
+import java.util.List;
 
 import org.apache.isis.applib.AbstractFactoryAndRepository;
 import org.apache.isis.applib.DomainObjectContainer;
+import org.apache.isis.applib.annotation.Action;
+import org.apache.isis.applib.annotation.ActionLayout;
+import org.apache.isis.applib.annotation.BookmarkPolicy;
 import org.apache.isis.applib.annotation.DomainService;
 import org.apache.isis.applib.annotation.DomainServiceLayout;
 import org.apache.isis.applib.annotation.ParameterLayout;
+import org.apache.isis.applib.annotation.SemanticsOf;
+import org.apache.isis.applib.query.QueryDefault;
 
 @DomainServiceLayout(menuOrder = "40")
 @DomainService(repositoryFor = TarjetaHSES.class)
@@ -35,14 +41,21 @@ public class TarjetasHSES extends AbstractFactoryAndRepository
 
 	}
 	
-	public Tarjeta Modificar()
-	{
-		return null;
+	@Action(semantics = SemanticsOf.SAFE)
+    @ActionLayout(bookmarking = BookmarkPolicy.AS_ROOT)
+	public List<TarjetaHSES> Modificar(@ParameterLayout(named="Num")final String num)
+	{	
+		return container.allMatches(new QueryDefault<>(TarjetaHSES.class,"buscarPorNum","name", num));
 	}
 	
 	public Tarjeta Eliminar()
 	{
 		return null;
+	}
+	
+	public List<TarjetaHSES> ListarTodo()
+	{		
+		return container.allInstances(TarjetaHSES.class);
 	}
 	
 
